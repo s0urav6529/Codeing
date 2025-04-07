@@ -8,7 +8,7 @@
 ll d[limit],total,n;
 ll dp[100002][102];
 
-ll (ll sum, ll pos){
+ll rec(ll sum, ll pos){
 
     if(pos>=n)
     {
